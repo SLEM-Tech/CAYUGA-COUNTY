@@ -79,13 +79,13 @@ const AllCategorySection = () => {
 				<div className='lg:col-span-6 z-10 text-black space-y-2 lg:space-y-8 h-full text-center lg:text-start flex flex-col justify-center p-5'>
 					<span className='text-secondary-400'>Welcome to chairy</span>
 
-					<p className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-wider font-semibold leading-tight md:leading-10 max-w-md'>
+					<p className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-wider font-semibold leading-tight md:leading-10'>
 						Best Software Applications for your need.
 					</p>
 
 					<Link
 						href='/category'
-						className='bg-primary shadow-md text-sm lg:text-base px-4 lg:px-6 py-3 flex items-center mx-auto lg:mx-0 gap-2 text-white rounded-xl w-fit transition-[.3] hover:scale-105'
+						className='bg-primary shadow-md text-sm lg:text-base px-4 lg:px-6 py-3 flex items-center mx-auto lg:mx-0 gap-2 text-white rounded-sm w-fit transition-[.3] hover:scale-105'
 					>
 						<span className='capitalize'>shop now</span>
 						<FaShoppingBag className='text-lg' />
