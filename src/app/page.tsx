@@ -27,7 +27,7 @@ const page = () => {
 			<div className='relative'>
 				<AllCategorySection />
 			</div>
-			<div className='mt-1 sm:mt-10 max-w-[1256px] mx-auto'>
+			<div className='mt-8 sm:mt-10 max-w-[1256px] mx-auto'>
 				<SortedProducts />
 			</div>
 			<section className='bg-white mx-auto w-full mt-4 md:mt-5 pt-4'>

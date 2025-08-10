@@ -79,7 +79,7 @@ const AllCategorySection = () => {
 				<div className='lg:col-span-6 z-10 text-black space-y-2 lg:space-y-8 h-full text-center lg:text-start flex flex-col justify-center p-5'>
 					<span className='text-secondary-400'>Welcome to chairy</span>
 
-					<p className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-wider font-semibold leading-tight md:leading-10'>
+					<p className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl tracking-wider font-semibold leading-tight md:leading-10'>
 						Best Software Applications for your need.
 					</p>
 
@@ -118,7 +118,7 @@ const AllCategorySection = () => {
 								<Picture
 									src={product?.images[0]?.src}
 									alt={product?.name}
-									className='w-full h-full object-contain'
+									className='w-[200px] h-[200px] lg:w-full lg:h-full object-contain'
 									sizes='(max-width: 640px) 90vw, (max-width: 1024px) 70vw, 60vw'
 								/>
 							</div>
@@ -142,7 +142,7 @@ const AllCategorySection = () => {
 					</div>
 				</div>
 			</section>
-			<div className='flex flex-wrap justify-center gap-10 py-6 bg-white text-gray-800 shadow-2xl w-fit mx-auto rounded-2xl px-5 -mt-10'>
+			<div className='grid grid-cols-2 sm:flex flex-wrap justify-center gap-10 py-6 bg-white text-gray-800 shadow-2xl w-fit mx-auto rounded-2xl px-2 lg:px-5 lg:-mt-10'>
 				{benefits.map((benefit, idx) => (
 					<div key={idx} className='flex items-center gap-4 max-w-[250px]'>
 						<div>{benefit.icon}</div>
