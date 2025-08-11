@@ -1,9 +1,9 @@
-const websiteUrl = "";
+const websiteUrl = "https://cayuga-county.vercel.app";
 export const websiteName =
 	"Cayuga County Services Limited Cayuga County Services Limited";
 
 export const SEODATA = {
-	defaultOGImage: ``,
+	defaultOGImage: `/_next/static/media/cayuga-logo.44f89630.png`,
 	default: {
 		title: websiteName,
 		description: `This is ${websiteName}`,

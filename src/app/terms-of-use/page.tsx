@@ -567,16 +567,16 @@ const Page = () => {
 											functionality
 										</li>
 										<li>
-											Performance-based refunds for applications that don't meet
-											efficiency targets
+											Performance-based refunds for applications that don&apos;t
+											meet efficiency targets
 										</li>
 										<li>
 											Integration failure refunds if software cannot connect
 											with existing business systems
 										</li>
 										<li>
-											Compatibility refunds for software that doesn't work with
-											business operating environments
+											Compatibility refunds for software that doesn&apos;t work
+											with business operating environments
 										</li>
 									</ul>
 								</li>
@@ -615,19 +615,19 @@ const Page = () => {
 									</span>
 									<ul className='list-disc pl-5 mt-1 space-y-1'>
 										<li>
-											Full refund if training programs don't meet advertised
-											business objectives
+											Full refund if training programs don&apos;t meet
+											advertised business objectives
 										</li>
 										<li>
 											Implementation service refunds for unsuccessful software
 											deployments
 										</li>
 										<li>
-											Consultation refunds if business analysis doesn't provide
-											actionable insights
+											Consultation refunds if business analysis doesn&apos;t
+											provide actionable insights
 										</li>
 										<li>
-											Configuration service refunds for setups that don't
+											Configuration service refunds for setups that don&apos;t
 											optimize business workflows
 										</li>
 										<li>
